@@ -1,0 +1,58 @@
+/* Battle Name Project 4.24.23 */
+
+/*font-family: 'Coda Caption', sans-serif;
+font-family: 'Eater', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Gloria Hallelujah', cursive; */
+
+body {
+	background-image: url("forest.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+h1{
+	font-family: 'Eater';
+	color: darkorange;
+	font-size: 4.5em;
+	text-align: center;
+	text-shadow: cornsilk 5px 4px 3px;
+	margin-top: 8%;
+}
+
+div#button {
+	background-color: darkorange;
+	width: 20%;
+	text-align: center;
+	margin-right: auto; 
+	margin-left: auto;
+	font-family: "Gloria Hallelujah", cursive;
+	font-size: 2.5em;
+	color: cornsilk;
+	border-radius: 13px;
+	transition: all 1s;
+}
+
+div#button:hover{ 
+	background-color: cornsilk;
+	color: darkorange;
+	cursor: pointer;
+}
+
+
+h2#victory {
+	font-family: 'Coda Caption', sans-serif;
+	color: greenyellow;
+	font-size: 2.7em;
+	text-align: center;
+	text-shadow: black 4px 4px 1px;
+}
+
+h2#defeat {
+	font-family: 'Freckle Face', cursive;
+	color: firebrick;
+	font-size: 3.2em;
+	text-align: center;
+	text-shadow: white 2px 2px 2px;
+}
